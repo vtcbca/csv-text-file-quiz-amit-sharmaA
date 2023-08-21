@@ -1,4 +1,5 @@
-QUS:-3
+QUS:-3 Write a program to create "BCA.txt" file which contain information about BCA course. 
+    count and print the total number of lines starting with ‘A’, ‘B’, and ‘C’ in "intro.txt" file.
 
 #!/usr/bin/env python
 # coding: utf-8
@@ -20,7 +21,6 @@ with open('E:\\22bca02\\python\\BCA.txt','w') as f:
 
 # In[13]:
 #READER
-
 
 with open('E:\\22bca02\\python\\BCA.txt','r') as f:
     c=f.read()
